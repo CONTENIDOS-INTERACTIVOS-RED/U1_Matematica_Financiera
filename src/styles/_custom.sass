@@ -17,13 +17,15 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #D6F5FB
   &-2
-    background-color: #FFFBE8
+    background-color: #E6F0CD
   &-3
-    background-color: #F0E9F6
+    background-color: #FFE1B9
   &-4
-    background-color: #EAF8FD
+    background-color: #FFEBD0
+  &-5
+    background-color: $color-terciario
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -97,15 +99,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: #FFE1B9 !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: #FFF4E6 !important
 
 
 .anexo__texto
@@ -143,7 +145,7 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #F6F3EF
 
 .material-complementario
   p,a
@@ -182,20 +184,20 @@ $custom-card-img-height: 322px
   span
     font-size: 0.85em
 
-.large
+.linea-tiempo-d.large
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: #FFE1B9 !important
   .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
+    background-color: #FF9D1C !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: #FFF4E6 !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: #FFE1B9 !important
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: #FF9D1C !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
@@ -210,3 +212,4 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+    
