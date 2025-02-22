@@ -26,6 +26,10 @@
     background-color: #FFEBD0
   &-5
     background-color: $color-terciario
+  &-6
+    background-color: #F6F3EF
+  &-7
+    background-color: #E2DACC
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -56,14 +60,16 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: center
+    @media screen and (min-width: $bp-min-lg)
+      background-size: 100%
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
 
 // Variables
-$custom-card-border-radius: 0px
+$custom-card-border-radius: 8px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
 $custom-card-text-bg: #FFF
 $custom-card-text-padding: 15px
@@ -212,4 +218,7 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
-    
+
+.container-fluid.banner-interno
+  .banner-interno__fondo
+    background-color: #F2F7E5 !important

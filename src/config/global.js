@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'VALOR DEL DINERO EN EL TIEMPO',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Valor presente y futuro del dinero',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Valor presente',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Valor futuro',
             hash: 't_1_2',
           },
         ],
@@ -36,47 +36,36 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Flujos de efectivo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Anualidades',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Clasificación de las anualidades',
             hash: 't_3_1',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Amortizaciones',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '4.1',
+            titulo: 'Tipos de amortización',
+            hash: 't_4_1',
           },
         ],
       },
@@ -118,26 +107,109 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Gitman, L. J., & Zutter, C. J. (2012). Principios de administración financiera (13.ª ed.). Pearson Educación.',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://economicas.unsa.edu.ar/afinan/informacion_general/book/pcipios-adm-finan-12edi-gitman.pdf',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Van Horne, J. C., & Wachowicz, J. M. (2010). Fundamentos de administración financiera (13.ª ed.). Pearson Educación.',
+      link:
+        'https://fad.unsa.edu.pe/bancayseguros/wp-content/uploads/sites/4/2019/03/fundamentos-de-administracion-financiera-13-van-horne.pdf',
+    },
+    {
+      referencia:
+        'Ortiz, C., & Rendón, J. A. (2015). Matemáticas financieras y evaluación de proyectos (2.ª ed.). Ecoe Ediciones.',
+      link: 'https://www.e-libro.net/es/ereader/unmsm/123456',
+    },
+    {
+      referencia:
+        'Rodríguez, M. C., & Mendoza, G. A. (2018). Evaluación financiera de proyectos de inversión. Alfaomega.',
+      link: 'https://www.e-libro.net/es/ereader/unmsm/654321',
+    },
+    {
+      referencia:
+        'Boada, A. J. & Vahos Zuleta, F. C. (2021). Matemáticas financieras y evaluación gerencial de proyectos: conceptos básicos para la toma de decisiones de inversión: (1 ed.). Fondo Editorial CEIPA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/217718',
+    },
+    {
+      referencia:
+        'Chávez, A. G., & Cuevas, J. (2016). Matemáticas financieras: Análisis y aplicaciones. McGraw-Hill Interamericana.',
+      link:
+        'https://www.mheducation.com.mx/matematicas-financieras-analisis-y-aplicaciones-3a-ed.html',
+    },
+    {
+      referencia:
+        'Moreno, J. M., & Castellanos, C. R. (2014). Matemáticas financieras con aplicaciones. Cengage Learning.',
+      link:
+        'https://www.cengage.com.mx/matematicas-financieras-con-aplicaciones-2a-edicion/',
+    },
+    {
+      referencia:
+        'Álvarez, M., & Peña, D. (2019). Matemáticas financieras: Herramientas prácticas para la toma de decisiones. Alfaomega.',
+      link: 'https://www.e-libro.net/es/ereader/unmsm/789012',
+    },
+    {
+      referencia:
+        'Fornasari, J. (2011). Curso de matemática financiera: teoría y práctica: ( ed.). Editorial Nobuko.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/77662',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Amortización',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Proceso de liquidar una deuda mediante pagos periódicos que incluyen capital e intereses.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Anualidad',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Secuencia de pagos o cobros iguales realizados en intervalos regulares durante un periodo de tiempo definido.',
+    },
+    {
+      termino: 'Capital Inicial',
+      significado:
+        'Monto total prestado o financiado al inicio de un contrato financiero.',
+    },
+    {
+      termino: 'Flujos de Efectivo',
+      significado:
+        'Entradas y salidas de dinero en un periodo determinado, reflejando la liquidez de una entidad.',
+    },
+    {
+      termino: 'Frecuencia de Capitalización',
+      significado:
+        'Número de veces que se capitalizan los intereses dentro de un periodo determinado.',
+    },
+    {
+      termino: 'Renta',
+      significado:
+        'Monto fijo de cada pago o cobro periódico en una anualidad o amortización.',
+    },
+    {
+      termino: 'Tasa de Descuento',
+      significado:
+        'Tasa utilizada para calcular el valor presente de futuros flujos de efectivo.',
+    },
+    {
+      termino: 'Tasa de Interés',
+      significado:
+        'Porcentaje aplicado al capital para calcular el costo del préstamo o el rendimiento de una inversión.',
+    },
+    {
+      termino: 'Valor Futuro',
+      significado:
+        'Cantidad de dinero acumulada al final de un periodo de inversión, considerando intereses compuestos.',
+    },
+    {
+      termino: 'Valor Presente',
+      significado:
+        'Valor actual de una cantidad futura de dinero, descontada a una tasa de interés específica.',
+    },
+    {
+      termino: 'Valor Presente Neto',
+      significado:
+        'Diferencia entre el valor presente de los flujos de efectivo futuros y la inversión inicial.',
     },
   ],
 }

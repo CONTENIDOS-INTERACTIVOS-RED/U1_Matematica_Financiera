@@ -4,10 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4(data-aos="fade-rigth")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/tema1/1.png",style="max-width: 400px;")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .bg-color-4.p-4.mb-4
           .row.align-items-center
             .col-md-auto
@@ -26,7 +26,7 @@
       h2 #[span 1.1] Valor presente
     
     .row.mb-4.align-items-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-rigth")
         p.mb-4 El Valor Presente (VP), es uno de los conceptos más importantes en el ámbito de las finanzas, puesto que permite determinar el valor actual de una cantidad de dinero que se espera recibir en el futuro.
 
         .bg-color-2.mb-4.p-4
@@ -34,7 +34,7 @@
         
         p.mb-0 La capacidad del dinero para generar intereses radica en que una cantidad disponible hoy, puede ser invertida, generando rendimientos adicionales a lo largo del tiempo. Por ejemplo, si recibe $10,000 hoy y decide invertirlos, al final de un periodo de tiempo habrá acumulado no solo el monto inicial, sino también los intereses generados. Esto implica que el dinero en el presente tiene un mayor valor que una cantidad equivalente recibida en el futuro, porque se pierde la oportunidad de obtener rendimientos si el dinero no se recibe de inmediato. 
 
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/tema1/3.png",style="max-width: 400px;")
 
@@ -46,13 +46,13 @@
           .col-lg
             p.mb-0 Por otro lado, la inflación, que refleja el aumento generalizado de los precios a lo largo del tiempo, reduce el poder adquisitivo del dinero. Esto significa que una cantidad fija de dinero podrá comprar menos bienes o servicios en el futuro, lo que refuerza la idea que el dinero tiene más valor si se dispone de él en el presente.
 
-    p.mb-4 Ampliemos la información:
+    p.mb-4(data-aos="fade-up") Ampliemos la información:
 
     .row.mb-4.align-items-center
-      .col-lg-4
+      .col-lg-4(data-aos="fade-rigth")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/tema1/5.png",style="max-width: 400px;")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Costo de oportunidad")
             p Es un factor crucial cuando se analiza el valor temporal del dinero. Al utilizar recursos financieros en el presente, se renuncia a otras oportunidades potenciales de inversión o consumo que podrían generar beneficios adicionales. Por ejemplo, decidir posponer una inversión implica perder los posibles rendimientos que esa inversión habría generado durante ese tiempo.
@@ -69,17 +69,17 @@
           .div(titulo="Nivel personal")
             p A nivel personal, el Valor Presente es una herramienta indispensable para la planificación financiera. Permite a las personas calcular cuánto necesita ahorrar hoy para alcanzar metas futuras, como la compra de una vivienda, la educación universitaria de sus hijos o un fondo de retiro. Al considerar factores como la tasa de interés y el periodo de tiempo, el VP ayuda a los individuos a tomar decisiones estratégicas sobre cómo asignar sus recursos de manera eficiente.
     
-    p.mb-4 El Valor Presente también juega un papel importante en la comparación de alternativas financieras. Por ejemplo, al evaluar diferentes opciones de inversión, el VP ayuda a identificar cuál ofrece el mayor rendimiento neto en términos actuales. Asimismo, es útil para valorar instrumentos financieros como bonos, permitiendo calcular su precio justo en función de los pagos futuros de intereses y el reembolso del principal.
+    p.mb-4(data-aos="fade") El Valor Presente también juega un papel importante en la comparación de alternativas financieras. Por ejemplo, al evaluar diferentes opciones de inversión, el VP ayuda a identificar cuál ofrece el mayor rendimiento neto en términos actuales. Asimismo, es útil para valorar instrumentos financieros como bonos, permitiendo calcular su precio justo en función de los pagos futuros de intereses y el reembolso del principal.
 
     .row.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="fade-rigth")
         .bg-color-2.p-4.h-100.align-content-center
           p.mb-0 En conclusión, el Valor Presente no solo es una herramienta matemática, sino un pilar fundamental para la toma de decisiones financieras responsables. Su aplicación asegura que los recursos disponibles se utilicen de manera eficiente, maximizando su valor en un contexto donde el tiempo, la inflación y el riesgo financiero son factores constantes. Comprender y aplicar el concepto del Valor Presente permite tanto a individuos como a empresas planificar de manera estratégica, evaluar opciones y asegurar que las decisiones tomadas hoy sean sostenibles y rentables en el futuro. Este enfoque no solo optimiza el uso de los recursos actuales, sino que también fortalece la capacidad para enfrentar los desafíos económicos de un entorno cada vez más dinámico y competitivo.
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/tema1/6.png",style="max-width: 400px;")
     
-    p.mb-0 La fórmula general para calcular el valor presente es: #[b VP = VF/ (1 + r)^n]
+    p.mb-0(data-aos="fade") La fórmula general para calcular el valor presente es: #[b VP = VF/ (1 + r)^n]
     p.fw-bold.mb-4 Donde:
 
     .row
