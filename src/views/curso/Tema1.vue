@@ -6,37 +6,37 @@
     .row.align-items-center.mb-4
       .col-lg-4(data-aos="fade-rigth")
         figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/tema1/1.png",style="max-width: 400px;")
+          img.mx-auto(src="@/assets/curso/tema1/1.png",style="max-width: 400px;", data-aos="zoom-in")
       .col-lg-8(data-aos="fade-left")
         .bg-color-4.p-4.mb-4
           .row.align-items-center
             .col-md-auto
               figure.mb-4.mb-lg-0
-                img.mx-auto(src="@/assets/curso/tema1/2.svg",style="max-width: 90px;")
+                img.mx-auto(src="@/assets/curso/tema1/2.svg",style="max-width: 90px;", data-aos="zoom-in")
             .col
-              p.mb-0 El valor del dinero en el tiempo, es un principio fundamental en las matemáticas financieras y en la economía. Este concepto reconoce que el dinero tiene un valor diferente, dependiendo del momento en que se recibe o se utiliza. 
+              p.mb-0(data-aos="fade-left") El valor del dinero en el tiempo, es un principio fundamental en las matemáticas financieras y en la economía. Este concepto reconoce que el dinero tiene un valor diferente, dependiendo del momento en que se recibe o se utiliza. 
         
-        p.mb-4 Esto se debe a factores como la inflación, la capacidad de generar rendimientos a través de inversiones y el costo de oportunidad, asociado al uso de recursos en el presente.
+        p.mb-4(data-aos="fade-left") Esto se debe a factores como la inflación, la capacidad de generar rendimientos a través de inversiones y el costo de oportunidad, asociado al uso de recursos en el presente.
 
-        p.mb-4.fw-bold El valor presente (VP) y el valor futuro (VF), son herramientas que permiten analizar la equivalencia del dinero a lo largo del tiempo, facilitando la toma de decisiones informadas en el ámbito financiero.
+        p.mb-4.fw-bold(data-aos="fade-left") El valor presente (VP) y el valor futuro (VF), son herramientas que permiten analizar la equivalencia del dinero a lo largo del tiempo, facilitando la toma de decisiones informadas en el ámbito financiero.
 
-        p.mb-0 Estas herramientas se aplican en situaciones como la evaluación de proyectos, la comparación de alternativas de inversión y la planificación financiera personal.
+        p.mb-0(data-aos="fade-left") Estas herramientas se aplican en situaciones como la evaluación de proyectos, la comparación de alternativas de inversión y la planificación financiera personal.
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Valor presente
     
     .row.mb-4.align-items-center
       .col-lg-8(data-aos="fade-rigth")
-        p.mb-4 El Valor Presente (VP), es uno de los conceptos más importantes en el ámbito de las finanzas, puesto que permite determinar el valor actual de una cantidad de dinero que se espera recibir en el futuro.
+        p.mb-4(data-aos="fade-left") El Valor Presente (VP), es uno de los conceptos más importantes en el ámbito de las finanzas, puesto que permite determinar el valor actual de una cantidad de dinero que se espera recibir en el futuro.
 
         .bg-color-2.mb-4.p-4
-          p Este concepto se basa en el principio del valor temporal del dinero, que sostiene que una suma de dinero disponible en el presente no tiene el mismo valor que una suma equivalente en el futuro. Esta diferencia en el valor del dinero a lo largo del tiempo está determinada por factores fundamentales como la capacidad del dinero para generar intereses, el impacto de la inflación y el costo de oportunidad asociado con su uso en el presente (Gitman & Zutter, 2012).
+          p(data-aos="fade-left") Este concepto se basa en el principio del valor temporal del dinero, que sostiene que una suma de dinero disponible en el presente no tiene el mismo valor que una suma equivalente en el futuro. Esta diferencia en el valor del dinero a lo largo del tiempo está determinada por factores fundamentales como la capacidad del dinero para generar intereses, el impacto de la inflación y el costo de oportunidad asociado con su uso en el presente (Gitman & Zutter, 2012).
         
-        p.mb-0 La capacidad del dinero para generar intereses radica en que una cantidad disponible hoy, puede ser invertida, generando rendimientos adicionales a lo largo del tiempo. Por ejemplo, si recibe $10,000 hoy y decide invertirlos, al final de un periodo de tiempo habrá acumulado no solo el monto inicial, sino también los intereses generados. Esto implica que el dinero en el presente tiene un mayor valor que una cantidad equivalente recibida en el futuro, porque se pierde la oportunidad de obtener rendimientos si el dinero no se recibe de inmediato. 
+        p.mb-0(data-aos="fade-left") La capacidad del dinero para generar intereses radica en que una cantidad disponible hoy, puede ser invertida, generando rendimientos adicionales a lo largo del tiempo. Por ejemplo, si recibe $10,000 hoy y decide invertirlos, al final de un periodo de tiempo habrá acumulado no solo el monto inicial, sino también los intereses generados. Esto implica que el dinero en el presente tiene un mayor valor que una cantidad equivalente recibida en el futuro, porque se pierde la oportunidad de obtener rendimientos si el dinero no se recibe de inmediato. 
 
       .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/tema1/3.png",style="max-width: 400px;")
+          img.mx-auto(src="@/assets/curso/tema1/3.png",style="max-width: 400px;", data-aos="zoom-in")
 
     .bg-full-width.bg-color-1.mb-4
       .px-4.px-md-5.py-4
@@ -44,7 +44,7 @@
           .col-lg-auto
             img(src="@/assets/curso/tema1/4.svg", style="max-width: 88px").mx-auto
           .col-lg
-            p.mb-0 Por otro lado, la inflación, que refleja el aumento generalizado de los precios a lo largo del tiempo, reduce el poder adquisitivo del dinero. Esto significa que una cantidad fija de dinero podrá comprar menos bienes o servicios en el futuro, lo que refuerza la idea que el dinero tiene más valor si se dispone de él en el presente.
+            p.mb-0(data-aos="fade-left") Por otro lado, la inflación, que refleja el aumento generalizado de los precios a lo largo del tiempo, reduce el poder adquisitivo del dinero. Esto significa que una cantidad fija de dinero podrá comprar menos bienes o servicios en el futuro, lo que refuerza la idea que el dinero tiene más valor si se dispone de él en el presente.
 
     p.mb-4(data-aos="fade-up") Ampliemos la información:
 
@@ -84,7 +84,7 @@
 
     .row
       .col-lg-3.col-md-6.mb-4
-        .bg-color-1.p-2.h-100.align-content-center
+        .bg-color-1.p-2.h-100.align-content-center(data-aos="fade-left")
           .row.align-items-center
             .col-lg-4
               figure.mb-1.mb-lg-0
@@ -92,7 +92,7 @@
             .col-lg-8.ps-lg-0
               p.mb-0 VP es el valor presente.
       .col-lg-3.col-md-6.mb-4
-        .bg-color-1.p-2.h-100.align-content-center
+        .bg-color-1.p-2.h-100.align-content-center(data-aos="fade-left")
           .row.align-items-center
             .col-lg-4
               figure.mb-1.mb-lg-0
@@ -100,7 +100,7 @@
             .col-lg-8.ps-lg-0
               p.mb-0 VF es el valor futuro (la cantidad que se recibirá en el futuro).
       .col-lg-3.col-md-6.mb-4
-        .bg-color-1.p-2.h-100.align-content-center
+        .bg-color-1.p-2.h-100.align-content-center(data-aos="fade-left")
           .row.align-items-center
             .col-lg-4
               figure.mb-1.mb-lg-0
@@ -108,7 +108,7 @@
             .col-lg-8.ps-lg-0
               p.mb-0 r es la tasa de interés o descuento por periodo.
       .col-lg-3.col-md-6.mb-4
-        .bg-color-1.p-2.h-100.align-content-center
+        .bg-color-1.p-2.h-100.align-content-center(data-aos="fade-left")
           .row.align-items-center
             .col-lg-4
               figure.mb-1.mb-lg-0
@@ -116,7 +116,7 @@
             .col-lg-8.ps-lg-0
               p.mb-0 n es el número de periodos (años, meses, etc.).
 
-    p Esta fórmula utiliza el concepto de interés compuesto inverso; es decir, descuenta los intereses futuros, para traer el valor al presente.
+    p(data-aos="fade-left") Esta fórmula utiliza el concepto de interés compuesto inverso; es decir, descuenta los intereses futuros, para traer el valor al presente.
 
     .bg-full-width.bg-color-5.mb-4
       .px-4.p-md-5
