@@ -190,8 +190,35 @@
                 span Proyecto B: $58,008.44.
           p(numero="3" titulo="Resultado") El #[b Proyecto A] es más rentable, en términos de valor presente.
 
-    
-  </template>
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/96913" target="_blank" rel="noopener noreferrer") Meza Orozco, J. D. J. (2011). Matemáticas financieras aplicadas: (4 ed.). Ecoe Ediciones. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/76600" target="_blank" rel="noopener noreferrer") Aching Guzmán, C. (2012). Matemáticas financieras para toma de decisiones empresariales: ( ed.). B - EUMED. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Gt3lo1q15po" target="_blank" rel="noopener noreferrer") Accounting Instruction, Help, & How To (Financial & Managerial). (2024, 20 octubre). Introducción al estado de flujos de efectivo 10 Contabilidad financiera
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=7iCrf920KFw" target="_blank" rel="noopener noreferrer") Accounting Instruction, Help, & How To (Financial & Managerial). (2024a, octubre 20). Clasificación de flujos de efectivo 20 Contabilidad financiera
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+</template>
 
 <script>
 export default {

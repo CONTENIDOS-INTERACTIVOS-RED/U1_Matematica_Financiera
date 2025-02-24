@@ -157,7 +157,7 @@
             h2.mb-4(data-aos="flip-up") Tipos de amortización
             p.mb-4(data-aos="fade-right") En el PDF Tipos de amortización, se analizan los principales métodos, como la amortización constante, con cuotas fijas, americana y variable, acompañados de ejemplos prácticos que ilustran su aplicación en distintos escenarios financieros. Este enfoque proporciona una base sólida para comprender cómo elegir el método más adecuado y gestionar eficientemente las obligaciones crediticias.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -168,12 +168,225 @@
               img(src='@/assets/curso/tema4/12.png', alt='')
 
 
-   
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/72202" target="_blank" rel="noopener noreferrer") Rivera Salcedo, J. (2010). Matemáticas financieras: ( ed.). Instituto Politécnico Nacional. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/49079" target="_blank" rel="noopener noreferrer") Valls Martínez, M. D. C. & Cruz Rambaud, S. (2015). Introducción a las matemáticas financieras: (3 ed.). Difusora Larousse - Ediciones Pirámide. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=4dMv9vNYb0U" target="_blank" rel="noopener noreferrer") ECONOMÍA Y FINANZAS. (2018, 12 diciembre). 9. Las amortizaciones y las provisiones  Finanzas para no financieros
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=BOpGk6t7SDE" target="_blank" rel="noopener noreferrer") Montero Espinosa (SPyB). (2019, 27 febrero). Préstamo francés. Tabla de amortización
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Matemática financiera',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Qué concepto refleja que el dinero tiene un valor diferente según el momento en que se recibe o utiliza?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Tasa de descuento',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Valor futuro',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Valor temporal del dinero',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Costo de oportunidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'El valor temporal del dinero reconoce la diferencia en el valor del dinero dependiendo del tiempo.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: '¿Cuál es el propósito principal del valor presente?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Determinar el valor futuro de una inversión.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Evaluar proyectos de inversión descontando flujos futuros.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Calcular intereses simples.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Estimar amortizaciones mensuales.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'El valor presente permite evaluar proyectos al comparar flujos futuros en términos actuales.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto: '¿Qué describe un flujo de efectivo de inversión?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Pagos a proveedores.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Adquisición de maquinaria.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Emisión de acciones.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Pagos de dividendos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'Los flujos de inversión reflejan transacciones relacionadas con activos a largo plazo.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'En una anualidad anticipada, ¿cuándo se realizan los pagos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Al final de cada periodo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Al inicio de cada periodo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'En intervalos irregulares.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Solo una vez al final.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'En las anualidades anticipadas, los pagos se efectúan al comienzo de cada periodo.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué ocurre con los intereses en una amortización constante?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Permanecen iguales en cada periodo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Disminuyen progresivamente a medida que se reduce el saldo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Aumentan proporcionalmente a los pagos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Se calculan únicamente al final del plazo.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'En la amortización constante, los intereses disminuyen porque se calculan sobre un saldo de deuda cada vez menor.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -182,4 +395,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

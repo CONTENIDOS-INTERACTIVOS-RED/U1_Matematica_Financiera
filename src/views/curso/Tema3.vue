@@ -300,7 +300,34 @@
           img.mx-auto(src="@/assets/curso/tema3/16.png",style="max-width: 400px;")
     
 
-   
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40386" target="_blank" rel="noopener noreferrer") Rodríguez Franco, J. (2015). Matemáticas financieras: ( ed.). Grupo Editorial Patria. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/71685" target="_blank" rel="noopener noreferrer") Boullosa Torrecilla, A. M. & Ríos Rodríguez, L. R. (2017). Matemática financiera: ( ed.). Editorial Feijóo.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=rZZA9MPG-Qc" target="_blank" rel="noopener noreferrer") Juliho Castillo. (2016, 5 julio). Anualidades diferidas
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=AlWOQKb7Urc" target="_blank" rel="noopener noreferrer") Mis Finanzas U. (2019, 23 septiembre). Cálculo de la cuota de una anualidad anticipada
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

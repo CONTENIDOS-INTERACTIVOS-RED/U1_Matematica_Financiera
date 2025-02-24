@@ -147,7 +147,7 @@
             h2.mb-4(data-aos="flip-up") Valor futuro
             p.mb-4(data-aos="fade-right") En el PDF Valor Futuro, se exploran conceptos clave como la relación entre la tasa de interés, el periodo de inversión y la frecuencia de capitalización, proporcionando ejemplos prácticos que facilitan la comprensión y aplicación de este cálculo en contextos personales y empresariales. Esta perspectiva permite evaluar decisiones financieras estratégicas y establecer metas económicas realistas.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -313,6 +313,35 @@
 
           p(numero="4" titulo="Resultado") El valor futuro de $8,000 con una tasa anual del 4 %, capitalizada trimestralmente durante siete años, será aproximadamente de $10,555.75.
 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/130920" target="_blank" rel="noopener noreferrer") Gutiérrez Banegas, M. Á. (2020). Matemáticas financieras: ( ed.). Instituto Mexicano de Contadores Públicos. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/175093" target="_blank" rel="noopener noreferrer") Escobar Arias, G. E. (2020). Matemáticas financieras: ( ed.). Editorial Universidad Autónoma de Manizales. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=1xv4raOrRhU" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2018, 7 septiembre). Ingenieria Economica 01 Valor del dinero en el tiempo
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=o8YGIMMDbjg" target="_blank" rel="noopener noreferrer") Sustraendo h. (2018, 4 enero). Introducción al Valor futuro y al Valor Presente
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
